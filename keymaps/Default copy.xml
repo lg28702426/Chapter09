@@ -1,0 +1,10 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+    <mouse-shortcut keystroke="shift button1" />
+  </action>
+  <action id="Move" />
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+</keymap>

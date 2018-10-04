@@ -1,0 +1,58 @@
+<toolSet name="External Tools">
+  <tool name="PyQtDesigner" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\ProgramData\Anaconda3\Library\bin\designer.exe " />
+      <option name="PARAMETERS" value="$ProjectFileDir$\$FileName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="PyUIC" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\ProgramData\Anaconda3\python.exe" />
+      <option name="PARAMETERS" value="-m PyQt5.uic.pyuic  $FileName$ -o $FileNameWithoutExtension$.py" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$ " />
+    </exec>
+  </tool>
+  <tool name="python-help" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Windows\hh.exe  " />
+      <option name="PARAMETERS" value="python364.chm" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files/Python36/Doc" />
+    </exec>
+  </tool>
+  <tool name="pandas.pdf" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Acrobat.exe" />
+      <option name="PARAMETERS" value="pandas.pdf" />
+      <option name="WORKING_DIRECTORY" value="G:/00B.Pyhon/Python 模块参考手册" />
+    </exec>
+  </tool>
+  <tool name="numpy-ref-1.14.0.pdf" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Acrobat.exe" />
+      <option name="PARAMETERS" value="numpy-ref-1.14.0.pdf" />
+      <option name="WORKING_DIRECTORY" value="G:/00B.Pyhon/Python 模块参考手册" />
+    </exec>
+  </tool>
+  <tool name="numpy-user-1.14.0.pdf" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Acrobat.exe" />
+      <option name="PARAMETERS" value="numpy-user-1.14.0.pdf" />
+      <option name="WORKING_DIRECTORY" value="G:/00B.Pyhon/Python 模块参考手册" />
+    </exec>
+  </tool>
+  <tool name="Matplotlib.pdf" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Acrobat.exe" />
+      <option name="PARAMETERS" value="Matplotlib.pdf" />
+      <option name="WORKING_DIRECTORY" value="G:/00B.Pyhon/Python 模块参考手册" />
+    </exec>
+  </tool>
+  <tool name="xx" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Administrator\AppData\Roaming\360se6\Application\360se.exe" />
+      <option name="PARAMETERS" value="http://pyqt.sourceforge.net/Docs/PyQt5/modules.html#ref-module-index" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
